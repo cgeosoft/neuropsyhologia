@@ -1,0 +1,85 @@
+.section-preheader {
+    background: #9b8e8a;
+    height: 77px;
+}
+
+.custom-navbar {
+    &.top-nav-collapse {
+        background: #9b8e8a;
+        color: #FFF;
+        box-shadow: none;
+        .main-menu {
+            ul.navbar-nav li a {
+                color: #fff;
+            }
+            ul.navbar-nav li.active a.theme-color {
+                background-color: #90c9cd;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.logo {
+    a.theme-color {
+        text-align: center;
+        line-height: 1.5rem;
+        span {
+            background: none;
+            font-family: Helvetica;
+            letter-spacing: normal;
+            text-transform: none;
+            padding: 0;
+            &.m {
+                font-size: 1.8rem;
+            }
+            &.s {
+                font-size: 1.2rem;
+                color: #dacea2;
+            }
+        }
+    }
+}
+
+.section-title {
+    h2 {
+        color: #dacea2
+    }
+}
+
+.session-services {
+    .card {
+        border: solid 3px #666;
+        margin-bottom: 1rem;
+        ul {
+            height: 220px;
+        }
+        img {
+            height: 100px;
+            margin-bottom: 1rem;
+        }
+        h4 {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .card-body {
+            padding: 3rem;
+        }
+    }
+    h3 {
+        padding-top: 40px;
+    }
+    &.session-services-sm {
+        .container {
+            max-width: 720px;
+        }
+    }
+}
+
+.session-seminars {
+    .times {
+        color: #6eabaf;
+        font-size: 3rem;
+        display: block;
+    }
+}

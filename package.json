@@ -8,6 +8,8 @@
     "url": "http://cgeosoft.com"
   },
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "gulp-cg-toolkit": "2.1.0"
+  },
   "devDependencies": {}
 }

@@ -107,3 +107,16 @@
         }
     }
 }
+
+.empty-articles {
+    text-align: center;
+    padding-top: 150px;
+    color: #999;
+    .icon {
+        font-size: 10rem;
+        margin-bottom: 15px;
+    }
+    p {
+        font-size: 2rem;
+    }
+}

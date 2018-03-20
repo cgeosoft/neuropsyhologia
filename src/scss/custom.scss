@@ -83,3 +83,27 @@
         display: block;
     }
 }
+
+.list-group-item {
+    h4 {
+        font-weight: 300;
+        font-size: 1.5rem;
+    }
+    .list-group-item-text {
+        font-size: 1rem;
+    }
+    &.active {
+        background: #9b8e8a;
+        border-color: darken(#9b8e8a, 20%);
+        .list-group-item-text {
+            color: darken(#9b8e8a, 50%);
+        }
+        &:hover {
+            background: darken(#9b8e8a, 20%);
+            border-color: darken(#9b8e8a, 20%);
+            .list-group-item-text {
+                color: darken(#9b8e8a, 50%);
+            }
+        }
+    }
+}

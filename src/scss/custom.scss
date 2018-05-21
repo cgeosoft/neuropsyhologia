@@ -20,6 +20,24 @@
     }
 }
 
+.home-welcome {
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    height: 100%;
+    background-image: url(/img/bg.jpg);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    .welcome-text {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
 .logo {
     a.theme-color {
         text-align: center;
@@ -38,6 +56,19 @@
                 color: #dacea2;
             }
         }
+    }
+}
+
+.footer {
+    background-color: #333;
+    padding: 12px 0;
+    .cgeo {
+        font-size: 10px;
+        line-height: 10px;
+        color: #ccc;
+    }
+    a {
+        color: #2d9c87;
     }
 }
 

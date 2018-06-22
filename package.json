@@ -9,7 +9,7 @@
   },
   "private": true,
   "dependencies": {
-    "gulp-cg-toolkit": "2.3.0"
+    "gulp-cg-toolkit": "3.0.1"
   },
   "devDependencies": {}
 }

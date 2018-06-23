@@ -14,7 +14,7 @@ html {
   .container {
     .navbar {
       padding: 0;
-      height: 50px;
+      height: 75px;
       .navbar-brand {
         @extend .text-white;
         text-align: center;
@@ -37,10 +37,13 @@ html {
         background: $color-main;
         li {
           >a {
+            @extend .text-nowrap;
+            @extend .text-center;
             color: #fff;
             font-size: 0.9rem;
-            padding:15px 10px;
-            height: 50px;
+            padding:0 10px;
+            height: 75px;
+            line-height: 75px;
             &:hover {
               background-color: darken($color-main, 10%);
               text-decoration: none;
@@ -65,13 +68,13 @@ html {
   @extend .flex-column;
   @extend .h-100;
   @extend .w-100;
-  margin-top: -50px;
+  margin-top: -75px;
   top: 0;
 }
 
 section {
   @extend .mb-4;
-  padding-top: 50px;
+  padding-top: 75px;
   .title {
     h2 {
       @extend .text-center;

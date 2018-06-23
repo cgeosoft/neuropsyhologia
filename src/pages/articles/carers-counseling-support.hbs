@@ -2,7 +2,7 @@
 <div class="wrapper"><section>
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 d-none d-md-block">
         {{>articles-list carers-counseling-support=true}}
       </div>
       <div class="col-md-8">
@@ -19,7 +19,9 @@
           και συμβουλές σχετικά με μη φαρμακευτικούς τρόπους αντιμετώπισης της νόσου και των συμπεριφορικών και ψυχιατρικών
           προβλημάτων που πιθανώς να υπάρχουν στην άνοια.
         </p>
-      </div>
+      </div><div class="col-md-4 d-md-none">
+        {{>articles-list carers-counseling-support=true}}
+        </div>
     </div>
   </div>
 </section>

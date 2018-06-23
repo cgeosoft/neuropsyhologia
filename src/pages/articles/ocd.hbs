@@ -2,7 +2,7 @@
 <div class="wrapper"><section>
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 d-none d-md-block">
         {{>articles-list ocd=true}}
       </div>
       <div class="col-md-8">
@@ -33,7 +33,9 @@
           σεροτονίνης (SSRIs, αντικαταθλιπτική αγωγή) και στη δεύτερη γραμμή βοήθειας σε σπανιότερες περιπτώσεις όπου η κατάσταση
           κρίνεται περισσότερο σοβαρή μπορεί να χρησιμοποιηθεί και τρικυκλική αντικαταθλπιτική αγωγή (κλομιπραμίνη) ή λίθιο
           ή αντιεπιληπτική αγωγή.</p>
-      </div>
+      </div><div class="col-md-4 d-md-none">
+        {{>articles-list ocd=true}}
+        </div>
     </div>
   </div>
 </section>

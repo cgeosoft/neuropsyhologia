@@ -2,7 +2,7 @@
 <div class="wrapper"><section>
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 d-none d-md-block">
         {{>articles-list mental-toughness=true}}
       </div>
       <div class="col-md-8">
@@ -16,7 +16,9 @@
           και συγκέντρωσης, λόγου, οπτικοχωρικής ικανότητας ή επιτελικών δραστηριοτήτων ή και συνδυασμοί. Η νοητική ενδυνάμωση
           των ασθενών πραγματοποιείται είτε στο χώρο μας είτε στο χώρο σας.
         </p>
-      </div>
+      </div><div class="col-md-4 d-md-none">
+        {{>articles-list mental-toughness=true}}
+        </div>
     </div>
   </div>
 </section>

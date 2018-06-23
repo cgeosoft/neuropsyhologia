@@ -2,7 +2,7 @@
 <div class="wrapper"><section>
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 d-none d-md-block">
         {{>articles-list histrionic-personality-disorder=true}}
       </div>
       <div class="col-md-8">
@@ -49,7 +49,9 @@
           <li>7) εύκολα επηρεάζεται συναισθηματικά από ανθρώπους και καταστάσεις</li>
           <li>8) δημιουργεί σχέσεις οικειότητας </li>
         </ul>
-      </div>
+      </div><div class="col-md-4 d-md-none">
+        {{>articles-list histrionic-personality-disorder=true}}
+        </div>
     </div>
   </div>
 </section>

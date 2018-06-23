@@ -2,7 +2,7 @@
 <div class="wrapper"><section>
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 d-none d-md-block">
         {{>articles-list panic=true}}
       </div>
       <div class="col-md-8">
@@ -107,7 +107,9 @@
             adults. Cochrane Datab System Rev. 2016; 10: CD011170.</li>
           <li>Bandelow B, Michaelis S, Wedekind D. Treatment of anxiety disorders. Dialogues Clin Neurosci., 2017; 19(2): 93-107.</li>
         </ul>
-      </div>
+      </div><div class="col-md-4 d-md-none">
+        {{>articles-list panic=true}}
+        </div>
     </div>
   </div>
 </section>

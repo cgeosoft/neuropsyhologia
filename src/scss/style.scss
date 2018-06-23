@@ -12,9 +12,9 @@ html {
   background: $color-main;
   box-shadow: none;
   .container {
-    // border: solid 3px #dacea2;
     .navbar {
       padding: 0;
+      height: 50px;
       .navbar-brand {
         @extend .text-white;
         text-align: center;
@@ -34,11 +34,13 @@ html {
       .navbar-nav {
         @extend .ml-auto;
         @extend .mr-0;
+        background: $color-main;
         li {
           >a {
             color: #fff;
             font-size: 0.9rem;
-            padding: 20px 10px;
+            padding:15px 10px;
+            height: 50px;
             &:hover {
               background-color: darken($color-main, 10%);
               text-decoration: none;
@@ -63,13 +65,13 @@ html {
   @extend .flex-column;
   @extend .h-100;
   @extend .w-100;
-  margin-top: -61px;
+  margin-top: -50px;
   top: 0;
 }
 
 section {
   @extend .mb-4;
-  padding-top: 61px;
+  padding-top: 50px;
   .title {
     h2 {
       @extend .text-center;

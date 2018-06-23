@@ -2,7 +2,7 @@
 <div class="wrapper"><section>
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 d-none d-md-block">
         {{>articles-list dementia-and-alzheimer=true}}
       </div>
       <div class="col-md-8">
@@ -66,7 +66,9 @@
         </h4>
         <p>Παρέχονται ψυχοεκπαιδευτικά σεμινάρια εξ αποστάσεως (online μέσω skype) διάρκειας 5 εβδομάδων. Το πακέτο περιλαμβάνει
           10 συνεδρίες διάρκειας 1 ώρας και 15 λεπτών. Για περισσότερες πληροφορίες πατήστε εδώ.</p>
-      </div>
+      </div><div class="col-md-4 d-md-none">
+        {{>articles-list dementia-and-alzheimer=true}}
+        </div>
     </div>
   </div>
 </section>

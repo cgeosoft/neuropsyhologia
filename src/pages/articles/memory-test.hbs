@@ -2,7 +2,7 @@
 <div class="wrapper"><section>
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 d-none d-md-block">
         {{>articles-list memory-test=true}}
       </div>
       <div class="col-md-8">
@@ -19,7 +19,9 @@
           με άνοια. Τέλος, η εξέτασή μας ολοκληρώνεται με ερωτηματολόγια για τους φροντιστές και τη δική τους ψυχική υγεία,
           με σκοπό να βοηθήσουμε- εφόσον χρειάζεται- και εκείνους.
         </p>
-      </div>
+      </div><div class="col-md-4 d-md-none">
+        {{>articles-list memory-test=true}}
+        </div>
     </div>
   </div>
 </section>

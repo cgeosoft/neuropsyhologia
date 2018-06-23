@@ -1,85 +1,84 @@
-{{>_header}} {{>preloader}} {{>header item_contact=true}}
-
-<div id="contact" class="contact-info-area section-padding">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 col-sm-12 col-xs-12">
-        <div class="section-title">
-          <h2>Επικοινωνία</h2>
+{{>_start}} {{>header item_contact=true}}
+<div class="wrapper">
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title">
+            <h2>Επικοινωνία</h2>
+          </div>
         </div>
       </div>
-    </div>
-    <!--/.row-->
-
-    <div class="row wow fadeInUp" data-wow-delay="0.4s">
-      <div class="col-md-6 col-sm-12 col-xs-12">
-        <div class="contact-form">
-          <form id="contact-form" method="post" action="https://formspree.io/tt.kirxof@gmail.com">
-            <div class="messages"></div>
-            <div class="controls">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="form-group">
-                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Name*" required="required" data-error="Το ονομα είναι υποχρεωτικό">
-                    <div class="help-block with-errors"></div>
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="contact-form">
+                <form id="contact-form" method="post" action="https://formspree.io/tt.kirxof@gmail.com">
+                  <div class="messages"></div>
+                  <div class="controls">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <input id="form_name" type="text" name="name" class="form-control" placeholder="Name*" required="required" data-error="Το ονομα είναι υποχρεωτικό">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <input id="form_email" type="email" name="email" class="form-control" placeholder="Email*" required="required" data-error="Το email είναι υποχρεωτικό">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <textarea id="form_message" name="message" class="form-control" placeholder="Message*" rows="7" required="required" data-error="Παρακαλώ, γράψτε κάτι"></textarea>
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <input type="submit" class="btn btn-effect btn-sent theme-color" value="Αποστολη">
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="form-group">
-                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Email*" required="required" data-error="Το email είναι υποχρεωτικό">
-                    <div class="help-block with-errors"></div>
-                  </div>
-                </div>
+                </form>
               </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="form-group">
-                    <textarea id="form_message" name="message" class="form-control" placeholder="Message*" rows="7" required="required" data-error="Παρακαλώ, γράψτε κάτι"></textarea>
-                    <div class="help-block with-errors"></div>
-                  </div>
+            </div>
+            <div class="col-md-4">
+              <div class="author-adress">
+                <div class="list-group-item">
+                  <i class="fa fa-rocket"></i>
+                  <strong>Διεύθυνση:</strong><br>
+                  <p>Σωκράτους 1, Χαλάνδρι (1ος όροφος)</p>
                 </div>
-                <div class="col-md-12">
-                  <input type="submit" class="btn btn-effect btn-sent theme-color" value="Αποστολη">
+                <div class="list-group-item">
+                  <i class="fa fa-phone"></i>
+                  <strong>Τηλέφωνο:</strong><br>
+                  <p>6978 11 33 57</p>
+                </div>
+                <div class="list-group-item">
+                  <i class="fa fa-envelope"></i>
+                  <strong>Email:</strong><br>
+                  <p>tt.kirxof@gmail.com</p>
+                </div>
+                <div class="list-group-item">
+                  <i class="fab fa-facebook"></i>
+                  <strong>Facebook:</strong><br>
+                  <p class="text-truncate">
+                    <a  href="https://www.facebook.com/psychology.now">
+                      https://www.facebook.com/psychology.now
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
-          </form>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-sm-12 col-xs-12">
-        <div class="author-adress">
-          <div class="single-address theme-color">
-            <i class="fa fa-rocket"></i>
-            <h4>Διεύθυνση:</h4>
-            <p>Σωκράτους 1, Χαλάνδρι (1ος όροφος)</p>
-          </div>
-          <div class="single-address theme-color">
-            <i class="fa fa-phone"></i>
-            <h4>Τηλέφωνο:</h4>
-            <p>6978 11 33 57</p>
-          </div>
-          <div class="single-address theme-color">
-            <i class="fa fa-envelope"></i>
-            <h4>Email:</h4>
-            <p>tt.kirxof@gmail.com</p>
-          </div>
-
-          <div class="social-link">
-            <ul>
-              <li>
-                <a class="facebook-color theme-color" href="https://www.facebook.com/psychology.now">
-                  <i class="fa fa-facebook"></i>
-                </a>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
-
     </div>
-    <!--/.row-->
-  </div>
-  <!--/.container-->
+  </section>
+  {{>footer}}
 </div>
-{{>_footer}}
+{{>_end}}

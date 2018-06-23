@@ -1,29 +1,43 @@
-<header class="navbar custom-navbar navbar-fixed-top top-nav-collapse">
+<div class="navbar-wrapper sticky-top">
   <div class="container">
-    <div class="row">
-      <div class="col-md-3 col-sm-4 col-xs-12">
-        <div class="logo">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-          <a class="theme-color" href="index.html">
-            <span class="m">ΤΑΤΙΑΝΑ ΔΗΜΗΤΡΙΟΥ, MSc</span>
-            <span class="s">ΣΥΜΒΟΥΛΕΥΤΙΚΗ ΨΥΧΟΛΟΓΙΑ</span>
-          </a>
-          <!--== logo ==-->
-        </div>
+    <nav class="navbar navbar-expand">
+      <a class="navbar-brand" href="index.html">
+        ΤΑΤΙΑΝΑ ΔΗΜΗΤΡΙΟΥ, MSc
+        <br>
+        <small>ΣΥΜΒΟΥΛΕΥΤΙΚΗ ΨΥΧΟΛΟΓΙΑ</small>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item {{#if item_index}}active{{/if}}">
+            <a class="nav-link" href="/index.html">HOMΕ</a>
+          </li>
+          <li class="nav-item {{#if item_bio}}active{{/if}}">
+            <a class="nav-link" href="/bio.html">ΒΙΟΓΡΑΦΙΚO</a>
+          </li>
+          <li class="nav-item {{#if item_services}}active{{/if}}">
+            <a class="nav-link" href="/services.html">ΥΠΗΡΕΣIΕΣ</a>
+          </li>
+          <li class="nav-item {{#if item_gallery}}active{{/if}}">
+            <a class="nav-link" href="/gallery.html">GALLERY</a>
+          </li>
+          <li class="nav-item {{#if item_articles}}active{{/if}}">
+            <a class="nav-link" href="/articles.html">AΡΘΡΑ</a>
+          </li>
+          <li class="nav-item {{#if item_seminars}}active{{/if}}">
+            <a class="nav-link" href="/seminars.html">ΣΕΜΙΝΑΡΙΑ</a>
+          </li>
+          <li class="nav-item {{#if item_quotes}}active{{/if}}">
+            <a class="nav-link" href="/quotes.html">ΕΙΠΑΝ ΓΙΑ ΕΜΑΣ</a>
+          </li>
+          <li class="nav-item {{#if item_contact}}active{{/if}}">
+            <a class="nav-link" href="/contact.html">ΕΠΙΚΟΙΝΩΝIΑ</a>
+          </li>
+        </ul>
       </div>
-
-      <div class="col-md-9 col-sm-8 col-xs-12">
-        {{>_menu}}
-      </div>
-    </div>
-    <!--/.row-->
+    </nav>
   </div>
-  <!--/.container-->
-</header>
+</div>

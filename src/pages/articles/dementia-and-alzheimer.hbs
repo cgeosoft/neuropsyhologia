@@ -1,9 +1,12 @@
-{{>_header}} {{>preloader}} {{>header item_articles=true}}
-<div class="section-padding session-services">
+{{>_start}} {{>header item_articles=true}}
+<div class="wrapper"><section>
   <div class="container">
     <div class="row">
-      <div class="col-md-9">
-        <div class="section-title">
+      <div class="col-md-4">
+        {{>articles-list dementia-and-alzheimer=true}}
+      </div>
+      <div class="col-md-8">
+        <div class="title">
           <h2>Συχνές Ερωτήσεις για την Άνοια και το Alzheimer</p>
         </div>
 
@@ -64,10 +67,7 @@
         <p>Παρέχονται ψυχοεκπαιδευτικά σεμινάρια εξ αποστάσεως (online μέσω skype) διάρκειας 5 εβδομάδων. Το πακέτο περιλαμβάνει
           10 συνεδρίες διάρκειας 1 ώρας και 15 λεπτών. Για περισσότερες πληροφορίες πατήστε εδώ.</p>
       </div>
-      <div class="col-md-3">
-        {{>articles-list dementia-and-alzheimer.=true}}
-      </div>
     </div>
   </div>
-</div>
-{{>_footer}}
+</section>
+{{>footer}}</div>{{>_end}}

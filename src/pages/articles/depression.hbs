@@ -1,9 +1,12 @@
-{{>_header}} {{>preloader}} {{>header item_articles=true}}
-<div class="section-padding session-services">
+{{>_start}} {{>header item_articles=true}}
+<div class="wrapper"><section>
   <div class="container">
     <div class="row">
-      <div class="col-md-9">
-        <div class="section-title">
+      <div class="col-md-4">
+        {{>articles-list depression=true}}
+      </div>
+      <div class="col-md-8">
+        <div class="title">
           <h2>Κατάθλιψη</h2>
         </div>
         <p>Όλοι μας έχουμε νιώσει στεναχωρημένοι κάποιες φορές στη ζωή μας. Ακόμα και απελπισμένοι ή χωρίς διάθεση και ενέργεια
@@ -86,10 +89,7 @@
           Αν η κατάθλιψη επιστρέψει μετά τους έξι μήνες ή ακόμα και χρόνια μετά μιλάμε για «επαναλαμβανόμενη κατάθλιψη».
           Αν η κατάθλιψη διαρκεί για περισσότερο από 2 χρόνια μιλάμε για «χρόνια κατάθλιψη». </p>
       </div>
-      <div class="col-md-3">
-        {{>articles-list depression=true}}
-      </div>
     </div>
   </div>
-</div>
-{{>_footer}}
+</section>
+{{>footer}}</div>{{>_end}}

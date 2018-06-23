@@ -1,9 +1,12 @@
-{{>_header}} {{>preloader}} {{>header item_articles=true}}
-<div class="section-padding session-services">
+{{>_start}} {{>header item_articles=true}}
+<div class="wrapper"><section>
   <div class="container">
     <div class="row">
-      <div class="col-md-9">
-        <div class="section-title">
+      <div class="col-md-4">
+        {{>articles-list ocd=true}}
+      </div>
+      <div class="col-md-8">
+        <div class="title">
           <h2>Ιδεοψυχαναγκαστικη Διαταραχη</h2>
         </div>
         <p>Η Ιδεοψυχαναγκαστική Διαταραχή είναι μια αγχώδης διαταραχή που ανήκει στις νευρώσεις. Είναι η 4η πιο διαδεδομένη
@@ -31,10 +34,7 @@
           κρίνεται περισσότερο σοβαρή μπορεί να χρησιμοποιηθεί και τρικυκλική αντικαταθλπιτική αγωγή (κλομιπραμίνη) ή λίθιο
           ή αντιεπιληπτική αγωγή.</p>
       </div>
-      <div class="col-md-3">
-        {{>articles-list ocd=true}}
-      </div>
     </div>
   </div>
-</div>
-{{>_footer}}
+</section>
+{{>footer}}</div>{{>_end}}

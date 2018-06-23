@@ -1,9 +1,12 @@
-histrionic-personality-disorder {{>_header}} {{>preloader}} {{>header item_articles=true}}
-<div class="section-padding session-services">
+{{>_start}} {{>header item_articles=true}}
+<div class="wrapper"><section>
   <div class="container">
     <div class="row">
-      <div class="col-md-9">
-        <div class="section-title">
+      <div class="col-md-4">
+        {{>articles-list histrionic-personality-disorder=true}}
+      </div>
+      <div class="col-md-8">
+        <div class="title">
           <h2>Histrionic Personality Disorder</h2>
         </div>
         <p>Η οιστριονική διαταραχή προσωπικότητας (Histrionic Personality Disorder HPD) είναι μια συχνή διαταραχή προσωπικότητας
@@ -47,10 +50,7 @@ histrionic-personality-disorder {{>_header}} {{>preloader}} {{>header item_artic
           <li>8) δημιουργεί σχέσεις οικειότητας </li>
         </ul>
       </div>
-      <div class="col-md-3">
-        {{>articles-list histrionic-personality-disorder=true}}
-      </div>
     </div>
   </div>
-</div>
-{{>_footer}}
+</section>
+{{>footer}}</div>{{>_end}}

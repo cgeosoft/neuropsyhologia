@@ -14,7 +14,7 @@
           <div class="row">
             <div class="col-md-8">
               <div class="contact-form">
-                <form id="contact-form" method="post" action="https://formspree.io/tt.kirxof@gmail.com">
+                <form id="contact-form" method="post" action="https://formspree.io/tt.kirxof@gmail.com" onsubmit="trackFB()">
                   <div class="messages"></div>
                   <div class="controls">
                     <div class="row">
@@ -50,24 +50,28 @@
               <div class="author-adress">
                 <div class="list-group-item">
                   <i class="fa fa-rocket"></i>
-                  <strong>Διεύθυνση:</strong><br>
+                  <strong>Διεύθυνση:</strong>
+                  <br>
                   <p>Σωκράτους 1, Χαλάνδρι (1ος όροφος)</p>
                 </div>
                 <div class="list-group-item">
                   <i class="fa fa-phone"></i>
-                  <strong>Τηλέφωνο:</strong><br>
+                  <strong>Τηλέφωνο:</strong>
+                  <br>
                   <p>6978 11 33 57</p>
                 </div>
                 <div class="list-group-item">
                   <i class="fa fa-envelope"></i>
-                  <strong>Email:</strong><br>
+                  <strong>Email:</strong>
+                  <br>
                   <p>tt.kirxof@gmail.com</p>
                 </div>
                 <div class="list-group-item">
                   <i class="fab fa-facebook"></i>
-                  <strong>Facebook:</strong><br>
+                  <strong>Facebook:</strong>
+                  <br>
                   <p class="text-truncate">
-                    <a  href="https://www.facebook.com/psychology.now">
+                    <a href="https://www.facebook.com/psychology.now">
                       https://www.facebook.com/psychology.now
                     </a>
                   </p>
@@ -79,6 +83,10 @@
       </div>
     </div>
   </section>
-  {{>footer}}
+  <script>
+    function trackFB() {
+      fbq("track", "CompleteRegistration");
+    }
+  </script> {{>footer}}
 </div>
 {{>_end}}

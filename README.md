@@ -1,3 +1,5 @@
-# Tatiana Dimitriou - Personal Website
+# neuropsyhologia.gr
 
-My personal website
+[https://neuropsyhologia.gr](neuropsyhologia.gr)
+
+![screenshot](docs/screenshot.png)

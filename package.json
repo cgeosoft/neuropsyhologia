@@ -10,7 +10,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.2.1",
-    "gulp-cg-toolkit": "4.0.0"
+    "gulp-cg-toolkit": "^4.0.1"
   },
   "devDependencies": {}
 }

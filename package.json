@@ -1,16 +1,15 @@
 {
-  "name": "website-neuropsyhologia",
+  "name": "neuropsyhologia",
   "version": "0.0.0",
   "description": "neuropsyhologia.gr",
+  "private": true,
   "author": {
     "name": "Christos Georgiou",
     "email": "georgiou.christos@outlook.com",
     "url": "http://cgeosoft.com"
   },
-  "private": true,
   "dependencies": {
     "bootstrap": "^4.2.1",
     "gulp-cg-toolkit": "^4.0.1"
-  },
-  "devDependencies": {}
+  }
 }

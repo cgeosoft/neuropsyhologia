@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 @import "../../node_modules/bootstrap/scss/bootstrap";
 $color-main: #9b8e8a;
 $color-secondary: #90c9cd;
@@ -36,12 +36,12 @@ html {
         @extend .mr-0;
         background: $color-main;
         li {
-          >a {
+          > a {
             @extend .text-nowrap;
             @extend .text-center;
             color: #fff;
             font-size: 0.9rem;
-            padding:0 10px;
+            padding: 0 10px;
             height: 75px;
             line-height: 75px;
             &:hover {
@@ -51,7 +51,7 @@ html {
           }
           &.active {
             background-color: $color-secondary;
-            >a {
+            > a {
               &:hover {
                 background-color: darken($color-secondary, 10%);
               }
@@ -110,7 +110,7 @@ section {
     justify-content: center;
     text-align: center;
     font-size: 5rem;
-    color: darken( $color-secondary, 20%);
+    color: darken($color-secondary, 20%);
     font-weight: bold;
   }
 }
@@ -120,14 +120,14 @@ section {
   background-color: #333;
   color: #ccc;
   min-height: 50px;
-  padding-top:5px; 
+  padding-top: 5px;
   .cgeo {
     font-size: 10px;
     line-height: 10px;
     color: #ccc;
   }
   a {
-    color: darken( $color-secondary, 20%);
+    color: darken($color-secondary, 20%);
   }
   p {
     margin: 0;
@@ -138,7 +138,8 @@ section {
   .card {
     margin-bottom: 1rem;
     height: 600px;
-    ul {}
+    ul {
+    }
     img {
       height: 100px;
       margin-bottom: 1rem;
@@ -184,9 +185,9 @@ section {
   @extend .mt-4;
   @extend .border-0;
   .list-group-item {
-    color: #FFFFFF;
+    color: #ffffff;
     background: $color-main;
-    border-color: darken( $color-main, 10%);
+    border-color: darken($color-main, 10%);
     &.active {
       background: $color-secondary;
       border-color: darken($color-secondary, 20%);
@@ -215,5 +216,14 @@ section {
   }
   p {
     font-size: 2rem;
+  }
+}
+
+.espa-banner {
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  img {
+    max-height: 100px;
   }
 }

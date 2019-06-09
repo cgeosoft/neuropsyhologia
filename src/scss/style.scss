@@ -8,6 +8,10 @@ html {
   @extend .h-100;
 }
 
+a {
+  color: #005dc1;
+}
+
 .navbar-wrapper {
   background: $color-main;
   box-shadow: none;
@@ -76,13 +80,11 @@ section {
   @extend .mb-4;
   padding-top: 75px;
   .title {
-    h2 {
-      @extend .text-center;
-      @extend .p-4;
-      color: $color-third;
-      font-size: 3rem;
-      font-weight: 300;
-    }
+    @extend .text-center;
+    @extend .p-4;
+    color: $color-main;
+    font-size: 3rem;
+    font-weight: 300;
   }
   h4 {
     @extend .border-bottom;

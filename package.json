@@ -9,7 +9,7 @@
     "url": "http://cgeosoft.com"
   },
   "dependencies": {
-    "bootstrap": "^4.2.1",
-    "gulp-cg-toolkit": "^4.0.1"
+    "bootstrap": "^4.4.1",
+    "gulp-cg-toolkit": "^4.1.0"
   }
 }

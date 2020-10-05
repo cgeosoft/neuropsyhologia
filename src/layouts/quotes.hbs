@@ -1,0 +1,16 @@
+{{>_start}} 
+{{>header}}
+<div class="wrapper">
+  <div class="container quotes">
+    <h1 class="title">Είπαν για εμάς</h1>
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        {{#each quotes}}
+        <blockquote class="card p-4">{{this}}</blockquote>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+  {{>footer}}
+</div>
+{{>_end}}

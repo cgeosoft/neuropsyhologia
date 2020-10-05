@@ -1,0 +1,17 @@
+{{>_start}}
+{{>header}}
+<div class="wrapper">
+  <div class="container">
+    <h1 class="title">{{title}}</h1>
+    <div class="row">
+      <div class="{{col1}}">
+        <img src="{{image.src}}" class="img-thumbnail" alt="{{image.alt}}">
+      </div>
+      <div class="{{col2}}">
+        {{{contents}}}
+      </div>
+    </div>
+  </div>
+  {{>footer}}
+</div>
+{{>_end}}

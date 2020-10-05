@@ -1,0 +1,35 @@
+{{>_start}} {{>header item_articles=true}}
+<div class="wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 d-none d-md-block">
+        <div class="card card-articles">
+          <div class="list-group list-group-flush">
+            {{#each collections.articles}}
+            <a href="/{{md2html path}}" class="list-group-item {{#equals ../path path}}active{{/equals}}">
+              {{title}}
+            </a>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        {{#if empty}}
+        <div class="empty-articles">
+          <div class="icon">
+            <span class="fa fa-newspaper"></span>
+          </div>
+          <p>Επιλέξτε ένα άρθρο απο την λίστα
+            <br>για να διαβάσετε</p>
+        </div>
+        {{/if}}
+        {{#if post}}
+          <h1 class="title">{{title}}</h1>
+        {{{contents}}}
+        {{/if}}
+      </div>
+    </div>
+  </div>
+  {{>footer}}
+</div>
+{{>_end}}

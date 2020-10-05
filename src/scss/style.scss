@@ -1,11 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
-@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./node_modules/bootstrap/scss/bootstrap";
+
 $color-main: #7b6d69;
 $color-secondary: #357277;
 $color-third: #dacea2;
+
 body,
 html {
   @extend .h-100;
+}
+
+.container{
+  max-width: 1140px;
 }
 
 a {
@@ -74,24 +80,22 @@ a {
   @extend .w-100;
   margin-top: -75px;
   top: 0;
+  padding-top: 75px;
 }
 
-section {
-  @extend .mb-4;
-  padding-top: 75px;
-  .title {
-    @extend .text-center;
-    @extend .p-4;
-    color: $color-main;
-    font-size: 3rem;
-    font-weight: 300;
-  }
-  h4 {
-    @extend .border-bottom;
-    @extend .pb-3;
-    @extend .mb-3;
-    font-weight: 300;
-  }
+.title {
+  @extend .text-center;
+  @extend .p-4;
+  color: $color-main;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+h4 {
+  @extend .border-bottom;
+  @extend .pb-3;
+  @extend .mb-3;
+  font-weight: 300;
 }
 
 .welcome {

@@ -2,7 +2,7 @@
 title: Κρίσεις Πανικού
 layout: articles.hbs
 post: true
-index: 3
+published: 2021-01-01 00:03:00
 ---
 
 **I) Τι είναι η διαταραχή πανικού;**

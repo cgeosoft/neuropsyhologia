@@ -2,7 +2,7 @@
 title: Η σωστή διαχείριση του χρόνου (Time Management)
 layout: articles.hbs
 post: true
-index: 20
+published: 2021-01-01 00:20:00
 ---
 
 Η σωστή διαχείριση του χρόνου ή αλλιώς “time management” ονομάζεται η διαδικασία κατά την οποία οργανώνεις το χρόνο σου

@@ -2,7 +2,7 @@
 title: Συχνές Ερωτήσεις για την Άνοια και το Alzheimer
 layout: articles.hbs
 post: true
-index: 1
+published: 2021-01-01 00:01:00
 ---
 
 ## 1. Η άνοια είναι διαφορετική από τη νόσο Alzheimer;

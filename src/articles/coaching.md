@@ -2,7 +2,7 @@
 title: Coaching
 layout: articles.hbs
 post: true
-index: 7
+published: 2021-01-01 00:07:00
 ---
 
 **Πώς το Life & Business Coaching μπορεί να αλλάξει τη ζωή και την καριέρα σου**

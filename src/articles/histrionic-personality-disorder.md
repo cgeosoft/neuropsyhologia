@@ -2,7 +2,7 @@
 title: Histrionic Personality Disorder
 layout: articles.hbs
 post: true
-index: 12
+published: 2021-01-01 00:12:00
 ---
 
 Η οιστριονική διαταραχή προσωπικότητας (Histrionic Personality Disorder HPD) είναι μια συχνή διαταραχή προσωπικότητας

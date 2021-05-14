@@ -26,7 +26,7 @@ Metalsmith(__dirname)
     articles: {
       pattern: 'articles/**/*.md',
       refer: false,
-      sortBy: 'index',
+      sortBy: 'published',
       reverse: true,
     }
   }))

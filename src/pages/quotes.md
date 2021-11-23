@@ -4,6 +4,8 @@ layout: quotes.hbs
 page_quotes: true
 quotes:
   - |-
+    Εξαιρετική επαγγελματίας, μεταφέρει θετική ενέργεια και εμπνέει εμπιστοσύνη. Διεισδύει σταδιακά σε ουσιώδη ζητήματα προς βελτίωση και αφιερώνει άπλετο χρόνο για αναλυτικό διάλογο σε ότι με απασχολεί ή/και προβληματίζει. Είμαι απόλυτα ικανοποιημένος από τις συνεδρίες μας.
+  - |-
     Μετά από κάποια χρόνια και έχοντας εικόνα για τον τρόπο της ψυχανάλυσης, με την Τατιάνα κάτι άλλαξε. Ένιωσα ότι μιλούσα σε κάτι περισσότερο από φίλη. Με έναν επαγγελματισμό που την διακατέχει πάντα έχει τρόπο κ την απάντηση στους προβληματισμούς σου , που θες να ακούσεις , για να σε κάνει να προβληματιστείς και να ξετυλίξεις το κουβάρι μόνος σου και να νιώσεις ανάλαφρος. Σε όλο αυτό βέβαια βοηθάει η εμπιστοσύνη που σου εμπνέει να μιλήσεις όπως νιώθεις. Επειδή μπορώ να γράφω ώρες για αυτό τη "γιατρό της ψυχής μου", αυτό που πω για να πω και να κλείσω είναι ότι την συστηνω ανεπιφύλακτα. Όσο και να μη θέλω να τελειώσει η συνεδρία μας. Στο πέρας της νιώθω τόσο αναλαφρη, ήρεμη και δυνατή για να συνεχίσω να με προσέχω.
   - |-
     My sessions with Tatyana started at a critical point in my life, and I am pleased to say they've been incredibly helpful. Her straightforward but non-judgemental manner made hard topics easier to address head-on, which I really needed and appreciated. I was able to make great progress for my mental health condition through my therapy sessions with her, and I'm happier as a result. I am extremely satisfied by the professionalism and approach used by her. I wouldn't hesitate to recommend her.
